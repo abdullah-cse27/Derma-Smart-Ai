@@ -1,0 +1,114 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+*.env
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Model Files / Weights
+# (Keep folders, ignore heavy files)
+# =========================
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.onnx
+*.ckpt
+
+# Ignore trained model folders if generated
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# =========================
+# Dataset / Raw Data
+# Uncomment if you don't want datasets on GitHub
+# =========================
+raw_data/
+raw_ham/
+data/
+*.csv
+
+# If you want to keep CSV files, comment above *.csv line
+
+# =========================
+# Temporary Generated Files
+# =========================
+temp_*.png
+temp_*.jpg
+temp_*.jpeg
+temp_*.pdf
+report_*.pdf
+
+# =========================
+# Cache / Testing
+# =========================
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.swp
